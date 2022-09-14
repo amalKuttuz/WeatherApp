@@ -1,0 +1,22 @@
+{% extends 'themes.html' %}
+{% block content  %}
+{% if cg %}
+    {{cg.region}}
+<br>
+    {{cg.temp_now}}
+<br>
+<button ><a href="/result"> Find another </a> </button>
+{%else%}
+
+<form method="GET" action="result">
+    {% csrf_token %}
+      <div class="form-group">
+        <label for="city"></label>
+        <input type="text" class="form-control" name="city" id="city" aria-describedby="helpId" placeholder="enter the city name"> <br>
+        <small id="helpId" class="form-text text-muted">Enter the city to find weather</small>
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+{% endif %}
+  {% endblock  %}
