@@ -41,5 +41,5 @@ Example usernames:
 Home Page             |  sample
 :-------------------------:|:-------------------------:
 <p align="center">
-  <img width="900" height="450" src=""></img>
+  <img width="1000" height="500" src="https://github.com/amalKuttuz/WeatherApp/blob/main/VID_20220914_223311.mp4"></img>
 </p>
