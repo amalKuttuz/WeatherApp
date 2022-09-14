@@ -1,3 +1,7 @@
+
+
+
+
 ## WeatherApp
 
 This is a Django sample project, web App to find weather of a city using web scraping technique
@@ -42,5 +46,5 @@ Home Page             |  sample
 :-------------------------:|:-------------------------:
 <p align="center">
 
-
+https://user-images.githubusercontent.com/63414371/190220275-3df4da91-9b2c-414f-a40d-7c32ea4973b5.mp4
 </p>
